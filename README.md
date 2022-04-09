@@ -1,13 +1,5 @@
-<!-- <p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
-<p1 align="center"><img height="188" width="359" src="https://miro.medium.com/max/1400/1*YBnH5pyLk-QMbgqvU5oC1w.jpeg"></p1> -->
-<div class="row">
-  <div class="column">
-    <img src="https://botman.io/img/botman.png" alt="Snow" style="width:50%">
-  </div>
-  <div class="column">
-    <img src="https://miro.medium.com/max/1400/1*YBnH5pyLk-QMbgqvU5oC1w.jpeg" alt="Forest" style="width:50%">
-  </div>
-<h1 align="center">BotMan Studio</h1>
+<p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
+<p1 align="center"><img height="188" width="359" src="https://miro.medium.com/max/1400/1*YBnH5pyLk-QMbgqvU5oC1w.jpeg"></p1>
 
 ## About BotMan Studio
 
