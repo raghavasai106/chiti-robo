@@ -29,6 +29,11 @@
         .content {
             text-align: center;
         }
+        .ChatLog{
+            max-height: 90vh;
+            overflow: scroll;
+        }
+
     </style>
 </head>
 <body>
