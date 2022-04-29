@@ -26,12 +26,12 @@ $botman->hears('Weather in {location}', function ($bot, $location) {
 });
 
 
-$botman->hears('Start conversation', BotManController::class.'@startConversation');
-$dialogflow = \BotMan\BotMan\Middleware\Dialogflow::create('')->listenForAction();
-$dialogflow = \BotMan\Middleware\DialogFlow\V2\DialogFlow::create('en');
-$botman->middleware->received($dialogflow);
-$botman->hears('(.*)', function ($bot) {
-    $extras = $bot->getMessage()->getExtras();
-    $bot->reply($extras['apiReply']);
-})->middleware($dialogflow);
+//$botman->hears('Start conversation', BotManController::class.'@startConversation');
+//$dialogflow = \BotMan\BotMan\Middleware\Dialogflow::create('')->listenForAction();
+//$dialogflow = \BotMan\Middleware\DialogFlow\V2\DialogFlow::create('en');
+//$botman->middleware->received($dialogflow);
+//$botman->hears('(.*)', function ($bot) {
+//    $extras = $bot->getMessage()->getExtras();
+//    $bot->reply($extras['apiReply']);
+//})->middleware($dialogflow);
 
